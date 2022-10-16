@@ -1,9 +1,9 @@
-#Shell Script to Backup a Directory
+# Shell Script to Backup a Directory
 
 I used simple shell commands toghter with a makefile to run the script
 and pass the arguments to backup a dir after it have been modified
 
-##Installation
+## Installation
 
 I installed [make](https://linuxhint.com/install-make-ubuntu/) to run and make a "makefile"
 
@@ -11,7 +11,7 @@ I installed [make](https://linuxhint.com/install-make-ubuntu/) to run and make a
 $sudo apt install make
 ```
 
-##Run
+## Run
 
 ```bash
 #Reading input from terminal
@@ -23,7 +23,7 @@ make #to run the code and create the backup dir if it doesn't exist
 make clean #to remove the backup dir (prefer to do this before running)
 ```
 
-##Code
+## Code
 
 Reading the parameters
 
