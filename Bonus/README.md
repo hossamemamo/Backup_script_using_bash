@@ -14,7 +14,7 @@ crontab -e
 ```
 this will open an editable file to add you cronjob
 Format should be :
-
+```
 1   2   3   4   5  sh /path/to/script/script.sh sourcedir backupdir maxbackups
 |   |   |   |   |              |
 |   |   |   |   |      Command or Script to Execute
@@ -29,6 +29,7 @@ Format should be :
 |   |
 | Hour(0-23)
 Mins(0-59)
+```
 # What should be the cron expression if i need to run it every 3rd friday of the month at 12:31 am
 it should be 
 ```bash
